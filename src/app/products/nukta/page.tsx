@@ -272,7 +272,7 @@ export default function NuktaPage() {
           <div className={`passport-card ${passportOpen ? "open" : ""}`}>
             <div className="passport-cover">
               <small>NUKTA PASSPORT</small>
-              <h3>Dr A. Dhamnaskar</h3>
+              <h3>Dr A. Sharma</h3>
               <p>Neurosurgery · Training record</p>
 
               <div className="passport-stat">
