@@ -4,6 +4,14 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Contact",
   description: "Contact TEIHSRA Health Intelligence.",
+  alternates: { canonical: "/contact" },
+  openGraph: {
+    title: "Contact | TEIHSRA",
+    description: "Contact TEIHSRA Health Intelligence.",
+    url: "https://teihsra.com/contact",
+    siteName: "TEIHSRA Health Intelligence",
+    type: "website",
+  },
 };
 
 export default function ContactPage() {
