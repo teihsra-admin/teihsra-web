@@ -4,6 +4,14 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Privacy Policy",
   description: "Privacy Policy for the TEIHSRA Health Intelligence website.",
+  alternates: { canonical: "/privacy" },
+  openGraph: {
+    title: "Privacy Policy | TEIHSRA",
+    description: "Privacy Policy for the TEIHSRA Health Intelligence website.",
+    url: "https://teihsra.com/privacy",
+    siteName: "TEIHSRA Health Intelligence",
+    type: "website",
+  },
 };
 
 export default function PrivacyPage() {

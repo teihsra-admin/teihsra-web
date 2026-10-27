@@ -4,6 +4,14 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Terms of Use",
   description: "Terms of Use for the TEIHSRA Health Intelligence website.",
+  alternates: { canonical: "/terms" },
+  openGraph: {
+    title: "Terms of Use | TEIHSRA",
+    description: "Terms of Use for the TEIHSRA Health Intelligence website.",
+    url: "https://teihsra.com/terms",
+    siteName: "TEIHSRA Health Intelligence",
+    type: "website",
+  },
 };
 
 export default function TermsPage() {

@@ -157,6 +157,10 @@ export default function AnvayaPage() {
               Follow one patient
               <span>↓</span>
             </a>
+            <a className="secondary-link" href="https://anvaya.teihsra.com/product.html">
+              Explore Anvaya software
+              <span aria-hidden="true">↗</span>
+            </a>
           </div>
 
           <div className="hero-principles">

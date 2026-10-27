@@ -42,6 +42,7 @@ export const metadata: Metadata = {
 const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "Organization",
+  "@id": "https://teihsra.com/#organization",
   name: "TEIHSRA Health Intelligence",
   alternateName: "TEIHSRA",
   url: "https://teihsra.com",
@@ -49,7 +50,7 @@ const organizationSchema = {
   description:
     "Technology-Empowered Intelligence for Healthcare Systems, Research and Advancement.",
   sameAs: [
-    "linkedin.com/company/teihsra",
+    "https://www.linkedin.com/company/teihsra",
     "https://x.com/teihsra",
     "https://www.instagram.com/teihsra",
     "https://www.threads.com/@teihsra",
