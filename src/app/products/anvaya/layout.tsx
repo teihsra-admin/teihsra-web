@@ -11,8 +11,14 @@ export const metadata: Metadata = {
     url: "https://teihsra.com/products/anvaya",
     siteName: "TEIHSRA Health Intelligence",
     type: "website",
+    images: [{ url: "https://teihsra.com/opengraph-image.png", width: 1731, height: 909, alt: "TEIHSRA Health Intelligence brand graphic" }],
   },
-  twitter: { card: "summary_large_image", title: `${title} | TEIHSRA`, description },
+  twitter: {
+    card: "summary_large_image",
+    title: `${title} | TEIHSRA`,
+    description,
+    images: ["https://teihsra.com/opengraph-image.png"],
+  },
 };
 export default function ProductLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return children;
