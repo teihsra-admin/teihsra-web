@@ -26,3 +26,12 @@ test("Anvaya links to live product information; secondary canonicals exist",()=>
   for(const slug of ["contact","privacy","terms"])
     assert.ok(read("src/app/"+slug+"/page.tsx").includes('canonical: "/'+slug+'"'));
 });
+
+test("Anvaya parent product metadata includes a real social image and absolute publisher profile URL", () => {
+  const product = read("src/app/products/anvaya/layout.tsx");
+  const root = read("src/app/layout.tsx");
+  assert.match(product, /images: \[\{ url: "https:\/\/teihsra\.com\/opengraph-image\.png", width: 1731, height: 909/);
+  assert.match(product, /images: \["https:\/\/teihsra\.com\/opengraph-image\.png"\]/);
+  assert.match(root, /"https:\/\/www\.linkedin\.com\/company\/teihsra"/);
+  assert.doesNotMatch(root, /"linkedin\.com\/company\/teihsra"/);
+});
