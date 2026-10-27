@@ -50,7 +50,7 @@ const organizationSchema = {
   description:
     "Technology-Empowered Intelligence for Healthcare Systems, Research and Advancement.",
   sameAs: [
-    "linkedin.com/company/teihsra",
+    "https://www.linkedin.com/company/teihsra",
     "https://x.com/teihsra",
     "https://www.instagram.com/teihsra",
     "https://www.threads.com/@teihsra",
