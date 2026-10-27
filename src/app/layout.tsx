@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Script from "next/script";
 import "./globals.css";
 
+const homepageDescription = "TEIHSRA Health Intelligence builds Anvaya, AI-assisted clinical documentation for hospitals with clinician-reviewed notes, ward rounds and discharge summaries.";
+
 export const metadata: Metadata = {
   title: {
     default: "TEIHSRA Health Intelligence",
@@ -9,7 +11,7 @@ export const metadata: Metadata = {
   },
 
   description:
-    "Technology-Empowered Intelligence for Healthcare Systems, Research and Advancement.",
+    homepageDescription,
 
   metadataBase: new URL("https://teihsra.com"),
 
@@ -20,7 +22,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "TEIHSRA Health Intelligence",
     description:
-      "Technology-Empowered Intelligence for Healthcare Systems, Research and Advancement.",
+      homepageDescription,
     url: "https://teihsra.com",
     siteName: "TEIHSRA Health Intelligence",
     type: "website",
@@ -30,7 +32,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "TEIHSRA Health Intelligence",
     description:
-      "Technology-Empowered Intelligence for Healthcare Systems, Research and Advancement.",
+      homepageDescription,
   },
 
   robots: {
